@@ -2,6 +2,7 @@
 var today = moment();
 $("#currentDay").text(today.format("dddd, MMMM Do"));
 
+var timeEl = $('#time');
 // WHEN I scroll down
 // THEN I am presented with timeblocks for standard business hours
 
